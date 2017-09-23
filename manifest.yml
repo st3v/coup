@@ -1,0 +1,8 @@
+---
+applications:
+  - name: coup
+    command: coup --listen :$PORT
+    memory: 64M
+    buildpack: https://github.com/cloudfoundry/go-buildpack.git
+    env:
+      GOPACKAGENAME: github.com/st3v/coup
