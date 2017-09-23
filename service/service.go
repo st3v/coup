@@ -1,4 +1,4 @@
-package api
+package service
 
 import "github.com/st3v/coup/fleet"
 
